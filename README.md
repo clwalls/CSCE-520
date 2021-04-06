@@ -1,5 +1,5 @@
 # CSCE-520
-Database Design
+Database Design & SQL
 
 
 mysql -u clwalls -p
