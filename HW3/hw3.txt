@@ -1,0 +1,31 @@
+mysql> use sales;
+Database changed
+mysql> source C:\Users\CLWALLS\Documents\School\SEM5\CSCE520 Database Design\HW4\hw4.sql
++-------+--------------+
+| maker | count(model) |
++-------+--------------+
+| A     |            3 |
+| B     |            3 |
+| C     |            1 |
+| D     |            3 |
+| E     |            3 |
++-------+--------------+
+5 rows in set (0.00 sec)
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from Laptop INNER JOIN product ON (
+product.model = laptop.model)
+where maker = ' at line 1
++------------+-------+
+| avg(price) | maker |
++------------+-------+
+|  2300.0000 | G     |
+|  1489.5000 | A     |
+|   949.4444 | E     |
+|   939.2500 | B     |
+|   790.0000 | F     |
+|   513.3333 | D     |
+|   510.0000 | C     |
++------------+-------+
+7 rows in set (0.01 sec)
+
+mysql> notee

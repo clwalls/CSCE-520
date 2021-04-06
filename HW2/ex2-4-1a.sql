@@ -1,0 +1,1 @@
+SELECT * FROM pc WHERE speed >= 3.00;

@@ -1,0 +1,1 @@
+ select model from printer where color = 1;
